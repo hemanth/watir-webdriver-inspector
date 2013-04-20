@@ -10,7 +10,7 @@ function highlight_on(evt)
     element = evt.target;  
     element.style.borderWidth = '3px';
     element.style.borderStyle = 'solid';
-    element.style.borderColor = '#f00';
+    element.style.borderColor = 'red';
 }
  
 /* Remove the red highlight */
